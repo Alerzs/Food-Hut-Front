@@ -1,0 +1,164 @@
+@font-face{
+        src: url(../fonts/Sofia\ Pro\ UltraLight\ Az.otf);
+        font-family: "sofia";
+        font-weight: 100;
+      }
+@font-face{
+        src: url(../fonts/Sofia\ Pro\ ExtraLight\ Az.otf);
+        font-family: "sofia";
+        font-weight: 200;
+      }
+@font-face{
+        src: url(../fonts/Sofia\ Pro\ Light\ Az.otf);
+        font-family: "sofia";
+        font-weight: 300;
+      }
+@font-face{
+        src: url(../fonts/Sofia\ Pro\ Regular\ Az.otf);
+        font-family: "sofia";
+        font-weight: 400;
+      }
+@font-face{
+        src: url(../fonts/Sofia\ Pro\ Medium\ Az.otf);
+        font-family: "sofia";
+        font-weight: 500;
+      }
+@font-face{
+        src: url(../fonts/Sofia\ Pro\ Semi\ Bold\ Az.otf);
+        font-family: "sofia";
+        font-weight: 600;
+      } 
+@font-face{
+        src: url(../fonts/Sofia\ Pro\ Bold\ Az.otf);
+        font-family: "sofia";
+        font-weight: 700;
+      }
+@font-face{
+        src: url(../fonts/Sofia\ Pro\ Black\ Az.otf);
+        font-family: "sofia";
+        font-weight: 900;
+      }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "sofia";
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: #0D0D0D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 10%;
+    height: 80px;
+}
+nav ul{
+    display: none;
+}
+nav a{
+    display: none;
+}
+header{
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+}
+.head-text{
+    padding: 0 24px;
+}
+header h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 135%;
+}
+header p{
+    line-height: 135%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffffcc;
+    margin: 25px 0 32px 0;
+}
+.head-image{
+    width: 100%;
+    margin-top: -80px;
+}
+.heart-box{
+    background-color: #f65f5f25;
+    color: #FFFFFF;
+    border-radius: 100px;
+    padding: 5px;
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+    margin:60px 0 20px 10px;
+}
+.search-food{
+    border: 0.5px solid #FFFFFF;
+    border-radius: 100px;
+    display: flex;
+    justify-content: left;
+    gap: 12px;
+    align-items: center;
+    padding: 6px 4px 6px 15px;
+}
+.search-food div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.search-food input{
+    background-color:#0D0D0D;
+    border: none;
+    width: 100%;
+}
+.search-food input::placeholder{
+    font-size: 18px;
+}
+.download-app{
+    background-color: #F65F5F;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: none;
+    color: #0D0D0D;
+}
+.head-links{
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#black-cir{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    box-shadow: 0 15px 30px 0 #DF69514D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watch-video{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 21px;
+}
+.watch-video span{
+    size: 17px;
+    color: #FFFFFF;
+}
+@media only screen and (min-width: 425px) {
+        header{
+            display: flex;
+            justify-content: space-around;
+        }
+        .head-image{
+            width: 50%;
+        }
+      }
